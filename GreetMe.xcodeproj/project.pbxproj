@@ -14,6 +14,8 @@
 		3F8BE6461E5C96490097F8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE6441E5C96490097F8B8 /* LaunchScreen.storyboard */; };
 		3F8BE6511E5C96490097F8B8 /* GreetMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE6501E5C96490097F8B8 /* GreetMeTests.swift */; };
 		3F8BE65C1E5C96490097F8B8 /* GreetMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE65B1E5C96490097F8B8 /* GreetMeUITests.swift */; };
+		3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */; };
+		3FE66C411E5DE6B20066A2D1 /* GreetingcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F8BE6571E5C96490097F8B8 /* GreetMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreetMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8BE65B1E5C96490097F8B8 /* GreetMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetMeUITests.swift; sourceTree = "<group>"; };
 		3F8BE65D1E5C96490097F8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
+		3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingcardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				3F8BE63B1E5C96490097F8B8 /* AppDelegate.swift */,
 				3F8BE63D1E5C96490097F8B8 /* ViewController.swift */,
 				3F8BE63F1E5C96490097F8B8 /* Main.storyboard */,
+				3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */,
+				3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */,
 				3F8BE6421E5C96490097F8B8 /* Assets.xcassets */,
 				3F8BE6441E5C96490097F8B8 /* LaunchScreen.storyboard */,
 				3F8BE6471E5C96490097F8B8 /* Info.plist */,
@@ -193,7 +199,7 @@
 				TargetAttributes = {
 					3F8BE6371E5C96480097F8B8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = RVQ6L7ME2T;
+						DevelopmentTeam = Q5AWLMAYE8;
 						ProvisioningStyle = Automatic;
 					};
 					3F8BE64B1E5C96490097F8B8 = {
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */,
 				3F8BE63E1E5C96490097F8B8 /* ViewController.swift in Sources */,
+				3FE66C411E5DE6B20066A2D1 /* GreetingcardViewController.swift in Sources */,
 				3F8BE63C1E5C96490097F8B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RVQ6L7ME2T;
+				DEVELOPMENT_TEAM = Q5AWLMAYE8;
 				INFOPLIST_FILE = GreetMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shade.GreetMe;
@@ -428,7 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RVQ6L7ME2T;
+				DEVELOPMENT_TEAM = Q5AWLMAYE8;
 				INFOPLIST_FILE = GreetMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shade.GreetMe;
@@ -514,6 +522,7 @@
 				3F8BE6621E5C96490097F8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8BE6631E5C96490097F8B8 /* Build configuration list for PBXNativeTarget "GreetMeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				3F8BE6651E5C96490097F8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8BE6661E5C96490097F8B8 /* Build configuration list for PBXNativeTarget "GreetMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				3F8BE6681E5C96490097F8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
