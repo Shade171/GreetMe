@@ -112,6 +112,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Invitations" id="iYo-oB-XGX"/>
+                    <connections>
+                        <outlet property="dateOfMessage" destination="8TF-Xm-QOS" id="EAV-uM-cmm"/>
+                        <outlet property="myTextView" destination="M9r-Ga-GZj" id="RrY-rg-H96"/>
+                        <outlet property="nameOfRecepient" destination="X0W-0b-a7y" id="HXe-wJ-caa"/>
+                        <outlet property="nameOfSender" destination="KFB-eb-Hdw" id="d3B-IO-zdi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIV-R5-LRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
