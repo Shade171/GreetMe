@@ -59,6 +59,7 @@
                     <tabBarItem key="tabBarItem" title="Greeting cards" id="zRJ-UN-3lA"/>
                     <connections>
                         <outlet property="dateOfMessage" destination="uAD-yf-3d6" id="JW9-mm-XVl"/>
+                        <outlet property="myGreeting" destination="Lja-Aa-M6p" id="ujg-YA-1gJ"/>
                         <outlet property="myImageView" destination="1As-vd-2af" id="opB-rK-Wil"/>
                         <outlet property="nameOfSender" destination="bma-qc-ExL" id="MzS-wS-OS8"/>
                         <outlet property="nameOfrecepient" destination="zBJ-CW-dsk" id="07g-en-6jJ"/>
@@ -101,8 +102,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pLy-sP-ZgL">
+                                <rect key="frame" x="67" y="134" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Put your text here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M9r-Ga-GZj">
-                                <rect key="frame" x="36" y="140" width="296" height="395"/>
+                                <rect key="frame" x="36" y="286" width="296" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -114,6 +119,7 @@
                     <tabBarItem key="tabBarItem" title="Invitations" id="iYo-oB-XGX"/>
                     <connections>
                         <outlet property="dateOfMessage" destination="8TF-Xm-QOS" id="EAV-uM-cmm"/>
+                        <outlet property="myImageView" destination="pLy-sP-ZgL" id="uBW-yC-aWp"/>
                         <outlet property="myTextView" destination="M9r-Ga-GZj" id="RrY-rg-H96"/>
                         <outlet property="nameOfRecepient" destination="X0W-0b-a7y" id="HXe-wJ-caa"/>
                         <outlet property="nameOfSender" destination="KFB-eb-Hdw" id="d3B-IO-zdi"/>
