@@ -16,5 +16,4 @@ class InvitationViewController: UIViewController
         super.viewDidLoad()
 
     }
-
 }
