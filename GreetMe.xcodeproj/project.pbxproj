@@ -15,6 +15,7 @@
 		3F8BE65C1E5C96490097F8B8 /* GreetMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE65B1E5C96490097F8B8 /* GreetMeUITests.swift */; };
 		3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */; };
 		3FE66C411E5DE6B20066A2D1 /* GreetingcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */; };
+		3FE66C431E6089880066A2D1 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C421E6089880066A2D1 /* EventsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3F8BE65D1E5C96490097F8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
 		3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingcardViewController.swift; sourceTree = "<group>"; };
+		3FE66C421E6089880066A2D1 /* EventsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				3F8BE63B1E5C96490097F8B8 /* AppDelegate.swift */,
 				3F8BE63F1E5C96490097F8B8 /* Main.storyboard */,
+				3FE66C421E6089880066A2D1 /* EventsCell.swift */,
 				3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */,
 				3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */,
 				3F8BE6421E5C96490097F8B8 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE66C431E6089880066A2D1 /* EventsCell.swift in Sources */,
 				3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */,
 				3FE66C411E5DE6B20066A2D1 /* GreetingcardViewController.swift in Sources */,
 				3F8BE63C1E5C96490097F8B8 /* AppDelegate.swift in Sources */,

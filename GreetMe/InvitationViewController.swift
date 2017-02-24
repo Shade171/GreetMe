@@ -8,15 +8,24 @@
 
 import UIKit
 
-class InvitationViewController: UIViewController
+class InvitationViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate
 {
-    @IBOutlet weak var nameOfRecepient: UITextField!
-    @IBOutlet weak var nameOfSender: UITextField!
-    @IBOutlet weak var dateOfMessage: UITextField!
-    @IBOutlet weak var myTextView: UITextView!
-    @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet var collectionView: UICollectionView!
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    {
+        return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
+    {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Events", for: indexPath) as! EventsCell
+        
+        return cell
     }
 }
