@@ -10,6 +10,8 @@ import UIKit
 
 class GreetingDetailViewController: UIViewController
 {
+    @IBOutlet weak var theReciever: UITextField!
+    @IBOutlet weak var theDate: UITextField!
     override func viewDidLoad()
     {
         super.viewDidLoad()
