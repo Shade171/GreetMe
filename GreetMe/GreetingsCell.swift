@@ -10,6 +10,6 @@ import UIKit
 
 class GreetingsCell: UICollectionViewCell
 {
+    @IBOutlet var greetingsLabel: UILabel!
     
-    @IBOutlet weak var myLabel: UILabel!
 }
