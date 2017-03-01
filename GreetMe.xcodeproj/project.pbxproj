@@ -19,6 +19,7 @@
 		3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */; };
 		3FE66C411E5DE6B20066A2D1 /* GreetingcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */; };
 		3FE66C431E6089880066A2D1 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C421E6089880066A2D1 /* EventsCell.swift */; };
+		3FE66C451E65D2210066A2D1 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66C441E65D2210066A2D1 /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
 		3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingcardViewController.swift; sourceTree = "<group>"; };
 		3FE66C421E6089880066A2D1 /* EventsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+		3FE66C441E65D2210066A2D1 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				3F0C6B7B1E6482A600767440 /* InviteDetailViewController.swift */,
 				3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */,
 				3F0C6B7D1E64833600767440 /* GreetingDetailViewController.swift */,
+				3FE66C441E65D2210066A2D1 /* FinalViewController.swift */,
 				3F0C6B791E647DDC00767440 /* GreetingsCell.swift */,
 				3F8BE6421E5C96490097F8B8 /* Assets.xcassets */,
 				3F8BE6441E5C96490097F8B8 /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				3FE66C431E6089880066A2D1 /* EventsCell.swift in Sources */,
 				3F0C6B7E1E64833600767440 /* GreetingDetailViewController.swift in Sources */,
 				3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */,
+				3FE66C451E65D2210066A2D1 /* FinalViewController.swift in Sources */,
 				3FE66C411E5DE6B20066A2D1 /* GreetingcardViewController.swift in Sources */,
 				3F8BE63C1E5C96490097F8B8 /* AppDelegate.swift in Sources */,
 			);
