@@ -11,6 +11,7 @@ import UIKit
 class GreetingcardViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource
 {
     @IBOutlet weak var myCollectionView: UICollectionView!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
