@@ -121,7 +121,6 @@
                     </view>
                     <connections>
                         <outlet property="theDate" destination="aP7-dF-Cgh" id="fUO-Xb-s3u"/>
-                        <outlet property="theEvent" destination="aP7-dF-Cgh" id="Ttv-X2-Qdx"/>
                         <outlet property="theReciever" destination="crO-n7-hAe" id="aOu-gx-Y9g"/>
                     </connections>
                 </viewController>
@@ -305,6 +304,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9Nb-ko-58F"/>
+        <segue reference="luw-lE-EGK"/>
     </inferredMetricsTieBreakers>
 </document>
