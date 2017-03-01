@@ -10,6 +10,12 @@ import UIKit
 
 class InviteDetailViewController: UIViewController
 {
+    @IBOutlet weak var theReciever: UITextField!
+    @IBOutlet weak var theEvent: UITextField!
+    @IBOutlet weak var theTime: UITextField!
+    @IBOutlet weak var thePlace: UITextField!
+    @IBOutlet weak var myTextView: UITextView!
+    @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad()
     {
         super.viewDidLoad()
