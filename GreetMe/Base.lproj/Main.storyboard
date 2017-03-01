@@ -50,7 +50,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="greetingsLabel" destination="RSF-ru-uJM" id="Vjl-2P-I6C"/>
-                                            <segue destination="LcD-oR-Ax6" kind="show" id="t52-eL-iK7"/>
+                                            <segue destination="P0l-Ob-UgA" kind="show" id="t52-eL-iK7"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -119,6 +119,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JQm-uU-aqL"/>
                     <connections>
                         <outlet property="theDate" destination="aP7-dF-Cgh" id="fUO-Xb-s3u"/>
                         <outlet property="theReciever" destination="crO-n7-hAe" id="aOu-gx-Y9g"/>
@@ -126,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9WT-wx-xqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="705" y="-174"/>
+            <point key="canvasLocation" x="1644" y="-174.06296851574214"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tFZ-Y0-QjN">
@@ -144,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsg-OG-pK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="-362"/>
+            <point key="canvasLocation" x="3316" y="-362.06896551724139"/>
         </scene>
         <!--Invitations-->
         <scene sceneID="hFn-mB-SSi">
@@ -192,7 +193,7 @@
                                         <connections>
                                             <outlet property="imageview" destination="Fig-M8-VvD" id="rbk-Po-qHQ"/>
                                             <outlet property="label" destination="VpI-HR-6qq" id="2Mx-eX-mrN"/>
-                                            <segue destination="dQH-ET-dv8" kind="show" id="Dbh-dn-8Kz"/>
+                                            <segue destination="Ymg-Jd-UfO" kind="show" id="Dbh-dn-8Kz"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -271,6 +272,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="xgT-RZ-ULb">
+                        <barButtonItem key="leftBarButtonItem" id="0Ec-oq-Y13"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="myButton" destination="shw-Gc-Hqq" id="w5q-Pg-iw1"/>
                         <outlet property="myTextView" destination="syP-pJ-Oat" id="cJs-jv-C85"/>
@@ -282,7 +286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="REQ-BT-lwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="706" y="-829"/>
+            <point key="canvasLocation" x="1644" y="-829.83508245877067"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="B9h-tO-scx">
@@ -301,6 +305,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l18-NC-Udd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-926" y="-501"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pha-mG-UtO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ymg-Jd-UfO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TaU-Ii-h7y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dQH-ET-dv8" kind="relationship" relationship="rootViewController" id="IRL-PS-OQu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdF-lY-OoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79999999999995" y="-829.83508245877067"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zMy-Or-9Q4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P0l-Ob-UgA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W0C-Nm-MHB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LcD-oR-Ax6" kind="relationship" relationship="rootViewController" id="SOs-Uf-CLS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ycc-WM-KLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79999999999995" y="-174.06296851574214"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
