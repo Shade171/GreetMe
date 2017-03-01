@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T7K-Uu-N4y">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T7K-Uu-N4y">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Greeting cards-->
+        <!--Greetingcard View Controller-->
         <scene sceneID="p6q-gc-CI8">
             <objects>
                 <viewController id="2eR-Ru-ZkB" customClass="GreetingcardViewController" customModule="GreetMe" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,14 +62,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Greeting cards" id="zRJ-UN-3lA"/>
+                    <navigationItem key="navigationItem" id="gdc-p7-2dL"/>
                     <connections>
                         <outlet property="myCollectionView" destination="k6G-7p-0e0" id="4PH-x7-zyG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5r-3C-Nwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="-174.06296851574214"/>
+            <point key="canvasLocation" x="964" y="-174.06296851574214"/>
         </scene>
         <!--Greeting Detail View Controller-->
         <scene sceneID="aAp-oD-a8D">
@@ -126,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9WT-wx-xqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="705" y="-174"/>
+            <point key="canvasLocation" x="1644" y="-174.06296851574214"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tFZ-Y0-QjN">
@@ -144,9 +144,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsg-OG-pK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="-362"/>
+            <point key="canvasLocation" x="3316" y="-362.06896551724139"/>
         </scene>
-        <!--Invitations-->
+        <!--Invitation View Controller-->
         <scene sceneID="hFn-mB-SSi">
             <objects>
                 <viewController id="Azs-0l-WZe" customClass="InvitationViewController" customModule="GreetMe" customModuleProvider="target" sceneMemberID="viewController">
@@ -204,14 +204,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Invitations" id="iYo-oB-XGX"/>
+                    <navigationItem key="navigationItem" id="pK0-dD-TjF"/>
                     <connections>
                         <outlet property="collectionView" destination="Kcj-SE-jzT" id="HnA-Ny-7pr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIV-R5-LRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="-829.83508245877067"/>
+            <point key="canvasLocation" x="964" y="-829.83508245877067"/>
         </scene>
         <!--Invite Detail View Controller-->
         <scene sceneID="NoT-Of-zcx">
@@ -282,7 +282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="REQ-BT-lwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="706" y="-829"/>
+            <point key="canvasLocation" x="1644" y="-829.83508245877067"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="B9h-tO-scx">
@@ -294,13 +294,51 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Azs-0l-WZe" kind="relationship" relationship="viewControllers" id="CJc-eH-iUz"/>
-                        <segue destination="2eR-Ru-ZkB" kind="relationship" relationship="viewControllers" id="G1Y-f0-Q7C"/>
+                        <segue destination="5d7-fh-9ax" kind="relationship" relationship="viewControllers" id="CJc-eH-iUz"/>
+                        <segue destination="0pN-fS-C3J" kind="relationship" relationship="viewControllers" id="G1Y-f0-Q7C"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l18-NC-Udd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-926" y="-501"/>
+        </scene>
+        <!--Invitations-->
+        <scene sceneID="Vh1-Ds-4lX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5d7-fh-9ax" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Invitations" id="iYo-oB-XGX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fCw-nk-Q3n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Azs-0l-WZe" kind="relationship" relationship="rootViewController" id="xlj-2z-fHb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loL-qo-c99" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="-829.83508245877067"/>
+        </scene>
+        <!--Greeting cards-->
+        <scene sceneID="Bu9-oj-HSr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0pN-fS-C3J" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Greeting cards" id="zRJ-UN-3lA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OIe-i2-UxN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2eR-Ru-ZkB" kind="relationship" relationship="rootViewController" id="cUX-8c-OmL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aL4-6E-C8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="-174.06296851574214"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
