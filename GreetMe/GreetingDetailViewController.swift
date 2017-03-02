@@ -12,6 +12,8 @@ class GreetingDetailViewController: UIViewController
 {
     @IBOutlet weak var theReciever: UITextField!
     @IBOutlet weak var theDate: UITextField!
+    @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var myButton: UIButton!
     
     override func viewDidLoad()
     {
