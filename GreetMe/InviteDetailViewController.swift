@@ -16,6 +16,7 @@ class InviteDetailViewController: UIViewController
     @IBOutlet weak var thePlace: UITextField!
     @IBOutlet weak var myTextView: UITextView!
     @IBOutlet weak var myButton: UIButton!
+    @IBOutlet weak var myImageView: UIImageView!
     override func viewDidLoad()
     {
         super.viewDidLoad()
