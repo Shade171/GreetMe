@@ -11,7 +11,7 @@ import UIKit
 class InvitationViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate
 {
     @IBOutlet var collectionView: UICollectionView!
-    let events = [Events]()
+    let events = Events()
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -25,7 +25,9 @@ class InvitationViewController: UIViewController, UICollectionViewDataSource, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Events", for: indexPath as IndexPath) as! EventsCell
-        let event = events[indexPath.row]
+        
+        let event = events[indexPath.item]
+        
         cell.label.text = event.name
         
         return cell
