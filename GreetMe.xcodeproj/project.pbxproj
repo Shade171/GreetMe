@@ -10,6 +10,8 @@
 		3F0C6B7A1E647DDC00767440 /* GreetingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C6B791E647DDC00767440 /* GreetingsCell.swift */; };
 		3F0C6B7C1E6482A600767440 /* InviteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C6B7B1E6482A600767440 /* InviteDetailViewController.swift */; };
 		3F0C6B7E1E64833600767440 /* GreetingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C6B7D1E64833600767440 /* GreetingDetailViewController.swift */; };
+		3F5C514D1E69C2270096E684 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C514C1E69C2270096E684 /* Greeting.swift */; };
+		3F5C514F1E69C9C10096E684 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C514E1E69C9C10096E684 /* Events.swift */; };
 		3F8BE63C1E5C96490097F8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BE63B1E5C96490097F8B8 /* AppDelegate.swift */; };
 		3F8BE6411E5C96490097F8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE63F1E5C96490097F8B8 /* Main.storyboard */; };
 		3F8BE6431E5C96490097F8B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE6421E5C96490097F8B8 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		3F0C6B791E647DDC00767440 /* GreetingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingsCell.swift; sourceTree = "<group>"; };
 		3F0C6B7B1E6482A600767440 /* InviteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteDetailViewController.swift; sourceTree = "<group>"; };
 		3F0C6B7D1E64833600767440 /* GreetingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingDetailViewController.swift; sourceTree = "<group>"; };
+		3F5C514C1E69C2270096E684 /* Greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		3F5C514E1E69C9C10096E684 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		3F8BE6381E5C96480097F8B8 /* GreetMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8BE63B1E5C96490097F8B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8BE6401E5C96490097F8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,12 +115,14 @@
 			children = (
 				3F8BE63B1E5C96490097F8B8 /* AppDelegate.swift */,
 				3F8BE63F1E5C96490097F8B8 /* Main.storyboard */,
-				3FE66C421E6089880066A2D1 /* EventsCell.swift */,
 				3F0C6B791E647DDC00767440 /* GreetingsCell.swift */,
-				3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */,
-				3F0C6B7B1E6482A600767440 /* InviteDetailViewController.swift */,
 				3FE66C401E5DE6B20066A2D1 /* GreetingcardViewController.swift */,
 				3F0C6B7D1E64833600767440 /* GreetingDetailViewController.swift */,
+				3F5C514C1E69C2270096E684 /* Greeting.swift */,
+				3FE66C3E1E5DE6A20066A2D1 /* InvitationViewController.swift */,
+				3F0C6B7B1E6482A600767440 /* InviteDetailViewController.swift */,
+				3FE66C421E6089880066A2D1 /* EventsCell.swift */,
+				3F5C514E1E69C9C10096E684 /* Events.swift */,
 				3FE66C441E65D2210066A2D1 /* FinalViewController.swift */,
 				3F8BE6421E5C96490097F8B8 /* Assets.xcassets */,
 				3F8BE6441E5C96490097F8B8 /* LaunchScreen.storyboard */,
@@ -280,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5C514D1E69C2270096E684 /* Greeting.swift in Sources */,
 				3F0C6B7C1E6482A600767440 /* InviteDetailViewController.swift in Sources */,
 				3F0C6B7A1E647DDC00767440 /* GreetingsCell.swift in Sources */,
 				3FE66C431E6089880066A2D1 /* EventsCell.swift in Sources */,
+				3F5C514F1E69C9C10096E684 /* Events.swift in Sources */,
 				3F0C6B7E1E64833600767440 /* GreetingDetailViewController.swift in Sources */,
 				3FE66C3F1E5DE6A20066A2D1 /* InvitationViewController.swift in Sources */,
 				3FE66C451E65D2210066A2D1 /* FinalViewController.swift in Sources */,
