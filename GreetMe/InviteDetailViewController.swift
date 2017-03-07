@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InviteDetailViewController: UIViewController
+class InviteDetailViewController: UIViewController,UITextFieldDelegate
 {
     @IBOutlet weak var theReciever: UITextField!
     @IBOutlet weak var theEvent: UITextField!
@@ -20,5 +20,17 @@ class InviteDetailViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        theReciever.delegate = self
+        theEvent.delegate = self
+        theTime.delegate = self
+        thePlace.delegate = self
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+       theReciever.resignFirstResponder()
+       theEvent.resignFirstResponder()
+       theTime.resignFirstResponder()
+       thePlace.resignFirstResponder()
+        return true
     }
 }

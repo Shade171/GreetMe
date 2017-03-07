@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GreetingDetailViewController: UIViewController
+class GreetingDetailViewController: UIViewController,UITextFieldDelegate
 {
     @IBOutlet weak var theReciever: UITextField!
     @IBOutlet weak var theDate: UITextField!
@@ -18,5 +18,13 @@ class GreetingDetailViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        theReciever.delegate = self
+        theDate.delegate = self
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        theReciever.resignFirstResponder()
+        theDate.resignFirstResponder()
+        return true
     }
 }

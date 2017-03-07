@@ -12,5 +12,4 @@ class EventsCell: UICollectionViewCell
 {
     @IBOutlet var imageview: UIImageView!
     @IBOutlet var label: UILabel!
-    
 }

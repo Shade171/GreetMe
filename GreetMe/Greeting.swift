@@ -11,5 +11,5 @@ import UIKit
 class Greeting: NSObject
 {
     var name = ""
-    var nameDetailArray = [String]()
+    var nameDetailArray: [String] = []
 }

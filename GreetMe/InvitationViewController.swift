@@ -25,9 +25,11 @@ class InvitationViewController: UIViewController, UICollectionViewDataSource, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Events", for: indexPath as IndexPath) as! EventsCell
-        
         let event = events
-        
+        events.nameArrayDetail.append("birthday")
+        events.nameArrayDetail.append("wedding")
+        events.nameArrayDetail.append("funeral")
+        events.nameArrayDetail.append("party")
         cell.label.text = event.name
         
         return cell
