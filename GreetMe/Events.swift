@@ -8,22 +8,8 @@
 
 import UIKit
 
-class Events: NSObject,NSCoding
+class Events: NSObject
 {
-    var name : String
-    
-    init(name: String)
-    {
-        self.name = name
-    }
-    
-    required init?(coder aDecoder: NSCoder)
-    {
-        name = aDecoder.decodeObject(forKey:"name") as! String
-    }
-    
-    func encode(with aCoder: NSCoder)
-    {
-        aCoder.encode(name, forKey:"name")
-    }
+    var name = ""
+    var nameArrayDetail = [String]()
 }
