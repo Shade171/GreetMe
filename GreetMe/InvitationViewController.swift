@@ -30,6 +30,7 @@ class InvitationViewController: UIViewController, UICollectionViewDataSource, UI
         events.nameArrayDetail.append("wedding")
         events.nameArrayDetail.append("funeral")
         events.nameArrayDetail.append("party")
+        events.nameArrayDetail.append("thanksgiving")
         cell.label.text = event.name
         
         return cell

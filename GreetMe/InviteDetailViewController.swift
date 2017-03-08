@@ -33,4 +33,9 @@ class InviteDetailViewController: UIViewController,UITextFieldDelegate
        thePlace.resignFirstResponder()
         return true
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let finalvc = segue.destination as! FinalViewController
+        finalvc.info = theReciever.text!
+    }
 }
