@@ -10,7 +10,8 @@ import UIKit
 
 class FinalViewController: UIViewController
 {
-    
+    var info = Card()
+    var info2 = Card2()
     override func viewDidLoad()
     {
         super.viewDidLoad()

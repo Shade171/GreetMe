@@ -17,6 +17,7 @@ class InviteDetailViewController: UIViewController,UITextFieldDelegate
     @IBOutlet weak var myTextView: UITextView!
     @IBOutlet weak var myButton: UIButton!
     @IBOutlet weak var myImageView: UIImageView!
+    var input = Card()
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -36,6 +37,6 @@ class InviteDetailViewController: UIViewController,UITextFieldDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let finalvc = segue.destination as! FinalViewController
-        finalvc.info = theReciever.text!
+        finalvc.info = input
     }
 }

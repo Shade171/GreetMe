@@ -14,7 +14,7 @@ class GreetingDetailViewController: UIViewController,UITextFieldDelegate
     @IBOutlet weak var theDate: UITextField!
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var myButton: UIButton!
-    
+    var input = Card2()
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -26,5 +26,10 @@ class GreetingDetailViewController: UIViewController,UITextFieldDelegate
         theReciever.resignFirstResponder()
         theDate.resignFirstResponder()
         return true
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let finalvc = segue.destination as! FinalViewController
+        finalvc.info2 = input
     }
 }
