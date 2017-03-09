@@ -15,12 +15,12 @@ class Card: NSObject
     var time:  String
     var place: String
     var image: UIImage
-    init(Reciever:String,Event:String,Time:String,Place:String,Image:UIImage)
+    init(reciever:String,event:String,time:String,place:String,image:UIImage)
     {
-        self.Reciever = reciever
-        self.Event = event
-        self.Time = time
-        self.Place = place
-        self.Image = image
+        self.reciever = reciever
+        self.event = event
+        self.time = time
+        self.place = place
+        self.image = image
     }
 }

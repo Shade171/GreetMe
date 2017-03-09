@@ -15,7 +15,9 @@ class Card2: NSObject
     var image:UIImage
     init(reciever:String,date:String,image:UIImage)
     {
-        
+        self.reciever = reciever
+        self.date = date
+        self.image = image
     }
 
 }
