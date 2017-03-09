@@ -12,7 +12,7 @@ class Card2: NSObject
 {
     var reciever: String
     var date:String
-    var image:UIImage
+    var image = UIImage(named: "Default")
     init(reciever:String,date:String,image:UIImage)
     {
         self.reciever = reciever

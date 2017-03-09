@@ -14,7 +14,7 @@ class Card: NSObject
     var event: String
     var time:  String
     var place: String
-    var image: UIImage
+    var image =  UIImage(named:"Default")
     init(reciever:String,event:String,time:String,place:String,image:UIImage)
     {
         self.reciever = reciever
