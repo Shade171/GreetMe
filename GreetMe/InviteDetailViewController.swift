@@ -17,7 +17,7 @@ class InviteDetailViewController: UIViewController,UITextFieldDelegate
     @IBOutlet weak var myTextView: UITextView!
     @IBOutlet weak var myButton: UIButton!
     @IBOutlet weak var myImageView: UIImageView!
-    var input = Card()
+    var input: Card?
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -25,6 +25,7 @@ class InviteDetailViewController: UIViewController,UITextFieldDelegate
         theEvent.delegate = self
         theTime.delegate = self
         thePlace.delegate = self
+        input = Card(reciever: theReciever.text!, event: theEvent.text!, time: theTime.text!, place: thePlace.text!, image: myImageView.image!)
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
     {

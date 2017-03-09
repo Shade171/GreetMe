@@ -14,12 +14,13 @@ class GreetingDetailViewController: UIViewController,UITextFieldDelegate
     @IBOutlet weak var theDate: UITextField!
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var myButton: UIButton!
-    var input = Card2()
+    var input: Card2?
     override func viewDidLoad()
     {
         super.viewDidLoad()
         theReciever.delegate = self
         theDate.delegate = self
+        input = Card2(reciever: theReciever.text!, date: theDate.text!, image: myImageView.image!)
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
     {
